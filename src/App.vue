@@ -70,7 +70,7 @@
 </template>
 <script  setup>
 const toAddress = (url)=>{
-  window.location.href = url;
+  window.open(url);
 }
 
 </script>
